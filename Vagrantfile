@@ -12,7 +12,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
 
 # Ambari setup script
-  config.vm.provision "ambari_setup", type: :shell, path: "vagrant_scripts/setup_ambari.sh", run: "always"
+  config.vm.provision "ambari_setup", type: :shell, path: "vagrant_scripts/setup_ambari.sh"
 
 # Deploy sources
   config.vm.provision "deploy", type: :shell, path: "vagrant_scripts/build_deploy.sh", run: "always"
