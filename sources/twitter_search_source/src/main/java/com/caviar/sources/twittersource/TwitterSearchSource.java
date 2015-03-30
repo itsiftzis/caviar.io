@@ -1,4 +1,4 @@
-package com.scale2j.dimzak.twittersource;
+package com.caviar.sources.twittersource;
 
 import org.apache.flume.Context;
 import org.apache.flume.Event;
@@ -13,7 +13,6 @@ import twitter4j.*;
 import twitter4j.conf.ConfigurationBuilder;
 import twitter4j.json.DataObjectFactory;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

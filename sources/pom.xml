@@ -2,13 +2,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                              http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>caviar</artifactId>
+        <groupId>com.scale2j</groupId>
+        <version>1.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.scale2j</groupId>
-    <artifactId>sources</artifactId>
     <packaging>pom</packaging>
-    <version>1.0</version>
-    <name>Flume Sources</name>
+    <name>Caviar.io Sources</name>
+
+    <artifactId>sources</artifactId>
 
     <modules>
         <module>twitter_search_source</module>
