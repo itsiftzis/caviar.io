@@ -29,7 +29,7 @@ cat .ssh/id_rsa.pub >> .ssh/authorized_keys
 # --- AMBARI SETUP ---
 
 # Get ambari repo
-wget http://public-repo-1.hortonworks.com/ambari/centos6/1.x/updates/1.7.0/ambari.repo
+wget http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.0.0/ambari.repo
 cp ambari.repo /etc/yum.repos.d
 
 # Install ambari-server
